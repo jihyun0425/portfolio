@@ -15,7 +15,7 @@ const Site = () => {
                                 <p>https://github.com/jihyun0425</p>
                             </div>
                             <div className="img">
-                                <a src={githubBg} alt="깃허브 사진"/>
+                                <img src={githubBg} alt="깃허브 사진"/>
                             </div>
                 </div>
                 <div className="site__wrap">
@@ -26,7 +26,7 @@ const Site = () => {
                                 <p>https://blog.naver.com/jihyun9833</p>
                             </div>
                             <div className="img">
-                                <a src={blogBg} alt="블로그 사진"/>
+                                <img src={blogBg} alt="블로그 사진"/>
                             </div>
                 </div>
             </div>
