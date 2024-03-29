@@ -5,7 +5,7 @@ const Header = () => {
         <header id="header" role="banner">
             <div className="header__inner">
                 <div className="header__logo">
-                    <a href="/">portfolio<em>vite</em></a>
+                    <a href="/">portfolio</a>
                 </div>
                 <nav className="header__nav" role="navigation" aria-label="메인 메뉴">
                     <ul>
