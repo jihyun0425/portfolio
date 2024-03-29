@@ -1,7 +1,7 @@
 import React from "react";
 
-const Port = () => {
+const Projects = () => {
     return <div>Port</div>;
 };
 
-export default Port;
+export default Projects;
