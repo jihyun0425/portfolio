@@ -5,28 +5,35 @@ import about from "../assets/img/about.jpg";
 const Intro = () => {
     return (
         <section id="intro">
-            <div className="intro__inner">
-                <h1 className="intro__title">junior developer</h1>
-                <div className="intro__lines" aria-hidden="true">
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
+            <div class="intro__inner">
+                <h1 class="intro__title">junior developer</h1>
+                <div class="intro__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
                 </div>
-                    <div className="img">
+                <div class="intro__text">
+                    <div class="text">
+                        <div>overcome your fear</div>
+                        <div>and</div>
+                        <div>just do it</div>
+                    </div>
+                    <div class="img">
                         <img src={about} alt="어바웃" />
                     </div>
+                </div>
                 <div class="intro__lines bottom" aria-hidden="true">
-                    <span className="line">이름</span>
-                    <span className="line">생년월일</span>
-                    <span className="line">주소</span>
-                    <span className="line">메일</span>
-                    <span className="line">학교</span>
-                    <span className="line">깃허브</span>
-                    <span className="line">블로그</span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
                 </div>
             </div>
         </section>

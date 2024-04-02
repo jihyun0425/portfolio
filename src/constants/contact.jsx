@@ -4,7 +4,7 @@ const contactText = [
         title: "KAKAO : Jihyun",
     },
     {
-        link: "bjh8332@gmail.com",
+        link: "mailto: bjh8332@gmail.com",
         title: "mail : bjh8332@gmail.com",
     },
 ];
