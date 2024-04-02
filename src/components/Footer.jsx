@@ -1,5 +1,6 @@
 import React from "react";
 import footerText from "../constants/footer";
+import footer from "../assets/img/footer.jpg";
 
 const Footer = () => {
     return (
@@ -11,9 +12,9 @@ const Footer = () => {
                 <div className="footer__info">
                     <div className="left">
                         <div className="title">
-                            <a href="/">sign up</a>
+                            <p>contact me</p>
                         </div>
-                        <p>회원가입을 하시면 댓글과 게시판 기능을 이용할 수 있습니다.</p>
+                        <img src={footer} alt="하단 이미지" />
                     </div>
                     <div className="right">
                         <h3>social</h3>

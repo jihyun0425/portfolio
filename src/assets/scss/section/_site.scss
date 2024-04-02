@@ -1,7 +1,6 @@
 .site__inner {
   padding: 16px;
 
-
   .site__title  {
     position: sticky;
     top: 70px;
@@ -33,7 +32,9 @@
       line-height: 2;
     }
   }
-         div {
+  .site__wrap {
+
+        > div {
           font-size: 3vw;
           line-height: 1;
           font-weight: 900;
@@ -45,27 +46,33 @@
             font-size: 26px;
           }
         }
-
+      }
       .title {
+        font-family: var(--mainKor-font);
         margin-bottom: 1rem;
+        font-size: 3.5rem;
+        font-weight: 700;
       }
 
-      .link {
-          text-decoration: underline;
-          text-transform: uppercase;
-          color: var(--black200);
-          font-size: 1rem;
-          transition: all 0.3s;
-          margin: 0 2px;
+  .link{
+    a {
+      text-decoration: underline;
+      text-transform: uppercase;
+      color: var(--black200);
+      font-size: 1rem;
+      transition: all 0.3s;
+      margin: 0 2px;
 
-          &:hover {
-            color: var(--black);
-          }
-        }
-
-      .img {
-        width: 400px;
-        }
+      &:hover {
+        color: var(--black);
       }
+    }
+  }
+
+  .img{
+    width: 1200px;
+  }
+}
+
 
 

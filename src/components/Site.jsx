@@ -12,7 +12,7 @@ const Site = () => {
                                GitHub 주소
                             </h3>
                             <div className="link">
-                                <p>https://github.com/jihyun0425</p>
+                                <a href="https://github.com/jihyun0425">https://github.com/jihyun0425</a>
                             </div>
                             <div className="img">
                                 <img src={githubBg} alt="깃허브 사진"/>
@@ -23,7 +23,7 @@ const Site = () => {
                                Blog 주소
                             </h3>
                             <div className="link">
-                                <p>https://blog.naver.com/jihyun9833</p>
+                                <a href="https://blog.naver.com/jihyun9833">https://blog.naver.com/jihyun9833</a>
                             </div>
                             <div className="img">
                                 <img src={blogBg} alt="블로그 사진"/>
