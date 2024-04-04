@@ -11,7 +11,7 @@ const proText = [
         desc: "다양한 다이어리 템플릿 및 캘린더 지원 사이트",
         img: port01,
         code: "https://github.com/jihyun0425/easy-diary",
-        view: "#",
+        view: "https://easy-diary-ef315.web.app/",
         name: "easy-diary",
     },
     {
@@ -20,7 +20,7 @@ const proText = [
         desc: "방탈출 예약 사이트",
         img: port02,
         code: "https://github.com/jihyun0425/night-factory",
-        view: "#",
+        view: "https://night-factory-2.web.app/",
         name: "night-factory",
     },
     {
@@ -29,7 +29,7 @@ const proText = [
         desc: "소품샵 쇼핑몰 사이트",
         img: port03,
         code: "https://github.com/jihyun0425/minimal-lounge",
-        view: "#",
+        view: "https://minimal-lounge.web.app/index.html",
         name: "minimal-lounge",
     },
     {
@@ -47,7 +47,7 @@ const proText = [
         desc: "리액트를 이용하여 제작한 포트폴리오",
         img: port05,
         code: "https://github.com/jihyun0425/portfolio",
-        view: "#",
+        view: "https://jihyun0425-portfolio.netlify.app/",
         name: "portfolio",
     },
 ];
