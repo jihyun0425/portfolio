@@ -69,8 +69,13 @@
     }
   }
 
-  .img{
+  .img {
     width: 1200px;
+
+
+    @media (max-width: 575px) {
+      width: 400px;
+    }
   }
 }
 
