@@ -49,6 +49,7 @@ const Projects = () => {
                             </a>
                             <h3 className="title">{pro.title}</h3>
                             <p className="desc">{pro.desc}</p>
+                            <p className="env">{pro.env}</p>
                             <a href={pro.view} target="_blank" className="site" rel="noreferrer">사이트 보기</a>
                         </article>
                     ))}
