@@ -21,7 +21,7 @@ const Projects = () => {
                 start: "top 56px",
                 end: () => "+=" + horizontal.offsetWidth,
                 pin: true,
-                scrub: 1,
+                scrub: 0.5,
                 invalidateOnRefresh: true,
                 anticipatePin: 1,
             },
